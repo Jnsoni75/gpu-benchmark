@@ -1,0 +1,200 @@
+[
+  {
+    "workload": "MatMul",
+    "device": "CPU",
+    "size": "256x256",
+    "median_ms": 0.024,
+    "avg_ms": 0.024,
+    "std_ms": 0.001,
+    "p95_ms": 0.025,
+    "throughput_gflops": 1390.86,
+    "memory_mb": 0.5
+  },
+  {
+    "workload": "MatMul",
+    "device": "MPS",
+    "size": "256x256",
+    "median_ms": 0.176,
+    "avg_ms": 0.22,
+    "std_ms": 0.1,
+    "p95_ms": 0.551,
+    "throughput_gflops": 190.33,
+    "memory_mb": 0.75
+  },
+  {
+    "workload": "MatMul",
+    "device": "CPU",
+    "size": "1024x1024",
+    "median_ms": 0.838,
+    "avg_ms": 0.854,
+    "std_ms": 0.045,
+    "p95_ms": 0.963,
+    "throughput_gflops": 2563.33,
+    "memory_mb": 8.0
+  },
+  {
+    "workload": "MatMul",
+    "device": "MPS",
+    "size": "1024x1024",
+    "median_ms": 0.392,
+    "avg_ms": 0.454,
+    "std_ms": 0.213,
+    "p95_ms": 1.265,
+    "throughput_gflops": 5483.52,
+    "memory_mb": 12.0
+  },
+  {
+    "workload": "MatMul",
+    "device": "CPU",
+    "size": "4096x4096",
+    "median_ms": 47.992,
+    "avg_ms": 47.788,
+    "std_ms": 2.734,
+    "p95_ms": 51.673,
+    "throughput_gflops": 2863.77,
+    "memory_mb": 128.0
+  },
+  {
+    "workload": "MatMul",
+    "device": "MPS",
+    "size": "4096x4096",
+    "median_ms": 13.266,
+    "avg_ms": 13.25,
+    "std_ms": 0.131,
+    "p95_ms": 13.446,
+    "throughput_gflops": 10360.29,
+    "memory_mb": 192.0
+  },
+  {
+    "workload": "Elementwise_Add",
+    "device": "CPU",
+    "size": "256x256",
+    "median_ms": 0.033,
+    "avg_ms": 0.034,
+    "std_ms": 0.008,
+    "p95_ms": 0.052,
+    "throughput_gflops": 1.96,
+    "memory_mb": 0.5
+  },
+  {
+    "workload": "Elementwise_Add",
+    "device": "MPS",
+    "size": "256x256",
+    "median_ms": 0.114,
+    "avg_ms": 0.121,
+    "std_ms": 0.023,
+    "p95_ms": 0.158,
+    "throughput_gflops": 0.57,
+    "memory_mb": 0.75
+  },
+  {
+    "workload": "Elementwise_Add",
+    "device": "CPU",
+    "size": "1024x1024",
+    "median_ms": 0.103,
+    "avg_ms": 0.11,
+    "std_ms": 0.033,
+    "p95_ms": 0.167,
+    "throughput_gflops": 10.22,
+    "memory_mb": 8.0
+  },
+  {
+    "workload": "Elementwise_Add",
+    "device": "MPS",
+    "size": "1024x1024",
+    "median_ms": 0.132,
+    "avg_ms": 0.137,
+    "std_ms": 0.017,
+    "p95_ms": 0.198,
+    "throughput_gflops": 7.92,
+    "memory_mb": 12.0
+  },
+  {
+    "workload": "Elementwise_Add",
+    "device": "CPU",
+    "size": "4096x4096",
+    "median_ms": 1.502,
+    "avg_ms": 1.558,
+    "std_ms": 0.142,
+    "p95_ms": 1.901,
+    "throughput_gflops": 11.17,
+    "memory_mb": 128.0
+  },
+  {
+    "workload": "Elementwise_Add",
+    "device": "MPS",
+    "size": "4096x4096",
+    "median_ms": 0.748,
+    "avg_ms": 0.786,
+    "std_ms": 0.15,
+    "p95_ms": 1.36,
+    "throughput_gflops": 22.43,
+    "memory_mb": 192.0
+  },
+  {
+    "workload": "MLP_NeuralNet",
+    "device": "CPU",
+    "size": "256x256",
+    "median_ms": 0.168,
+    "avg_ms": 0.174,
+    "std_ms": 0.03,
+    "p95_ms": 0.245,
+    "throughput_gflops": 400.2,
+    "memory_mb": 0.75
+  },
+  {
+    "workload": "MLP_NeuralNet",
+    "device": "MPS",
+    "size": "256x256",
+    "median_ms": 0.204,
+    "avg_ms": 0.212,
+    "std_ms": 0.023,
+    "p95_ms": 0.27,
+    "throughput_gflops": 328.26,
+    "memory_mb": 1.25
+  },
+  {
+    "workload": "MLP_NeuralNet",
+    "device": "CPU",
+    "size": "1024x1024",
+    "median_ms": 0.807,
+    "avg_ms": 0.821,
+    "std_ms": 0.088,
+    "p95_ms": 1.083,
+    "throughput_gflops": 1331.33,
+    "memory_mb": 9.01
+  },
+  {
+    "workload": "MLP_NeuralNet",
+    "device": "MPS",
+    "size": "1024x1024",
+    "median_ms": 0.317,
+    "avg_ms": 0.329,
+    "std_ms": 0.043,
+    "p95_ms": 0.419,
+    "throughput_gflops": 3391.87,
+    "memory_mb": 11.01
+  },
+  {
+    "workload": "MLP_NeuralNet",
+    "device": "CPU",
+    "size": "4096x4096",
+    "median_ms": 7.476,
+    "avg_ms": 7.519,
+    "std_ms": 0.206,
+    "p95_ms": 8.091,
+    "throughput_gflops": 2298.06,
+    "memory_mb": 132.03
+  },
+  {
+    "workload": "MLP_NeuralNet",
+    "device": "MPS",
+    "size": "4096x4096",
+    "median_ms": 2.071,
+    "avg_ms": 2.101,
+    "std_ms": 0.087,
+    "p95_ms": 2.347,
+    "throughput_gflops": 8295.11,
+    "memory_mb": 140.03
+  }
+]
